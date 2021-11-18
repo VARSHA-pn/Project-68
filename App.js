@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import BottomTabNavigator from "./components/BottomTabNavigator";
 
 export default class App extends Component {
-  render() {
+  //render() 
 
     //return <BottomTabNavigator>;
-    <BottomTabNavigator/>;
+    //<BottomTabNavigator/>;
     //return <BottomTabNavigator />;
     //return <BottomTabNavigator> <BottomTabNavigator />;
+    render() { return <BottomTabNavigator />; }
     
   }
-}
+
